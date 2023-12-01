@@ -56,6 +56,18 @@ gsap.to(".pfp", {
     }
 });
 
+// Animation for page2
+gsap.from(".page2", {
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+        trigger: ".page2",
+        start: "top -10%",
+        end: "top 50%",
+        scrub: 3
+    }
+});
+
 // Listen for scroll events
 document.addEventListener('scroll', function () {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;

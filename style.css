@@ -105,6 +105,9 @@ a:hover .cursor{
 .card-btn:hover .cursor{
     opacity: 0;
 }
+.card img{
+    height: 20%;
+}
 
 /* navbar css inside page1*/
 .navbar {
@@ -229,7 +232,86 @@ a:hover .cursor{
     height: 100vh;
     width: 100vw;
     background-color: var(--content-background);
+    position: relative;
 }
+.page2 .heading{
+    margin-bottom: 9%;
+}
+
+.part1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 21.5%;
+}
+.part1 img{
+    margin-left: 9%;
+}
+
+.part2{
+    height: auto;
+    width: 100%;
+}
+
+.maintimeline{
+    height: 0;
+    width: 70%;
+    margin: 1% 0 0 10%;
+    border: 1px solid gray;
+}
+.subtimeline{
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+.line{
+    height: 10vh;
+    width: 0;
+    border: 1px solid gray;
+    margin-left: 10%;
+    margin-right: 24.86%;
+}
+
+
+.part3{
+    display: flex;
+    margin-left: 10%;
+    gap: 19.8%;
+}
+.info-card{
+    margin-top: 0.5%;
+    color: white;
+    font-family: "Poppins";
+}
+.info-card h4{
+    
+    font-size: 2vh;
+}
+.info-card h2{
+    font-size: 1.5vh;
+    color: gray;
+}
+.info-card li{
+    list-style: circle;
+}
+.info-card ul{
+    margin: 5% 0 0 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .page3 {
     min-height: 100vh;
@@ -342,4 +424,25 @@ a:hover .cursor{
     .card{
         width: 95vw;
     }
+
+    .timeline{
+        height: 60%;
+        width: 0;
+        border: 1px solid gray;
+    }
+    .edu-sec{
+        position: absolute;
+        top: 1%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .line{
+        height: 0;
+        width: 10vh;
+        border: 1px solid gray;
+        margin-top: 35%;
+    }
+    
 }
